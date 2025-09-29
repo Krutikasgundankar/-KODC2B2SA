@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krutika-Resume</title>
+    <style>
+        header{
+            text-align: center;
+            background-color: green;
+            color:aliceblue;  
+        }
+        nav a{
+            color: white;
+            text-align: right;
+            padding: 10px;
+        }
+        table{
+            width:100%;
+            height:200px;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>KRUTIKA</h1>
+    <p>krutikasg31@gmail.com | +91 8951057566</p>
+    <nav>
+        <a href="#about">summary</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+    </header>
+
+    <section id="about">
+        <h3>Summary</h3>
+        <hr>
+        <p>I am a recent Computer Science graduate with a strong passion for full stack web development.I have worked on several academic projects
+            where i built responsive website using HTML,CSS,JavaScript and created back-end functionalities using SQL.
+        </p>
+    </section>
+    <section id="education">
+        <h3>Education</h3>
+        <hr>
+        <table >
+            <tr>
+            <th>qualifications</th>
+            <th>name</th>
+            <th>year of passing</th>
+            </tr>
+            <tr>
+                <td>BE-CSE</td>
+                <td>Sri Siddhartha Institute of Technology,Tumkur</td>
+                <td>2025 | 7.52</td>
+            </tr>
+            <tr>
+                <td>PU</td>
+                <td>Sarvajna PU College of Science,Kalaburgi</td>
+                <td>2021 | 73.33</td>
+            </tr>
+            <tr>
+                <td>SSLC</td>
+                <td>Maharishi Vidya Mandir High School,kalaburgi</td>
+                <td> 2019 |67.84</td>
+            </tr>
+        </table>
+    </section>
+   <section id="skills">
+<h2>Skills</h2>
+<hr>
+<ul>
+<li>HTML, CSS, JavaScript</li>
+<li>Java, Python</li>
+<li>SQL, React</li>
+</ul>
+</section>
+<section id="projects">
+    <h3>Projects</h3>
+    <hr>
+    <b>Pet Service</b>
+    <p>Designed and developed a pet service web applicatio using HTML,CSS,JavaScript,and mySql to help per owners
+        find local services like pet sitting , grooming, and food purchase.
+    </p>
+    <b>Doctor Appointment Management System</b>
+    <p>Developed a web-based DAMS using HTML,CSS,JavaScript, and MySQL to simplify online appointment booking , reduce waiting time.</p>
+</section>
+
+</body>
+</html>
